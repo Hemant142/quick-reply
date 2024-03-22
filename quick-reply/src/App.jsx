@@ -24,12 +24,16 @@ function App() {
   ];
 
   const [currentStep, setCurrentStep] = useState(0);
- const [type,setType]=useState("Horizontal")
-  // Define the type
-  // const type = "Horizontal"; // or "Horizontal"
+  const [type, setType] = useState("Horizontal"); // Default type is Horizontal
 
   return (
     <div className="App">
+      {/* Selector for the type */}
+      <select value={type} onChange={(e) => setType(e.target.value)}>
+        <option value="Horizontal">Horizontal</option>
+        <option value="Vertical">Vertical</option>
+      </select>
+
       {/* Pass the type prop */}
       <MultiStepIndicator steps={steps} currentStep={currentStep} type={type} />
     </div>

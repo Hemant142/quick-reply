@@ -5,14 +5,13 @@ export default {
   title: "MultiStepIndicator",
   component: MultiStepIndicator,
   argTypes: {
-    steps: { control: "array", default: "[]" },
+    steps: { control: "array" },
     type: {
-      description: "Type of the multi-step indicator",
+      description: "string",
       control: {
-        type: "select",
-        options: ["Horizontal", "Vertical"],
+        type: "text", 
       },
-      DefaultValue: "Horizontal", // Set default value as Horizontal
+      defaultValue: "Horizontal",
     },
   },
   tags: ["autodocs"],
@@ -102,7 +101,7 @@ Pending.args = {
       status: "pending",
       subtitleText: "Subtitle",
       titleText: "Everything you can do with Monday",
-    }
+    },
   ],
 };
 
@@ -114,6 +113,6 @@ Fulfilled.args = {
       status: "fulfilled",
       subtitleText: "Subtitle",
       titleText: "Everything you can do with Monday",
-    }
+    },
   ],
 };

@@ -36,11 +36,13 @@ const MultiStepIndicator = ({ steps, type }) => {
 export default MultiStepIndicator;
 
 const StepperContainer = styled.div`
-/* border: 2px solid blue; */
-gap: 30px;
+  /* border: 2px solid blue; */
+  gap: 30px;
   display: flex;
-  justify-content: ${(props) => (props.type === "Vertical" ? "flex-start" : "space-between")};
-  align-items: ${(props) => (props.type === "Vertical" ? "flex-start" : "center")};
+  justify-content: ${(props) =>
+    props.type === "Vertical" ? "flex-start" : "space-between"};
+  align-items: ${(props) =>
+    props.type === "Vertical" ? "flex-start" : "center"};
   flex-direction: ${(props) => (props.type === "Vertical" ? "column" : "row")};
   width: 70%;
   margin: auto;
@@ -50,8 +52,9 @@ const StepItem = styled.div`
   display: flex;
   /* gap: 20px; */
   position: relative;
-  justify-content: ${(props) => (props.type === "Vertical" && "flex-start")};
-  align-items: ${(props) => (props.type === "Vertical" ? "flex-start" : "center")};
+  justify-content: ${(props) => props.type === "Vertical" && "flex-start"};
+  align-items: ${(props) =>
+    props.type === "Vertical" ? "flex-start" : "center"};
   /* border: 2px solid red; */
   flex-direction: ${(props) => (props.type === "Vertical" ? "row" : "column")};
   cursor: pointer;
@@ -72,7 +75,7 @@ const StepItem = styled.div`
     width: ${(props) => (props.type === "Vertical" ? "3px" : "105.5%")};
     height: ${(props) => (props.type === "Vertical" ? "80%" : "3px")};
     right: ${(props) => (props.type === "Vertical" ? "91.5%" : "50%")};
-    
+
     top: ${(props) => (props.type === "Vertical" ? "calc(50% - 40px)" : "25%")};
     transform: translateY(-50%);
   }
@@ -85,7 +88,8 @@ const Step = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: ${(props) => (props.status === "fulfilled" ? "#28a745" : "#007bff")};
+  background-color: ${(props) =>
+    props.status === "fulfilled" ? "#28a745" : "#007bff"};
   border-radius: 50%;
   font-weight: 600;
   color: #fff;
