@@ -24,9 +24,9 @@ function App() {
   ];
 
   const [currentStep, setCurrentStep] = useState(0);
-
+ const [type,setType]=useState("Horizontal")
   // Define the type
-  const type = "Horizontal"; // or "Horizontal"
+  // const type = "Horizontal"; // or "Horizontal"
 
   return (
     <div className="App">
