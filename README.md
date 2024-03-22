@@ -5,7 +5,7 @@
  [Live](https://quick-reply-pi.vercel.app/)
  
 # Video Link
-  [Video](https://drive.google.com/file/d/1XbPxZpbIx4zU3voo1w3amkk4_zu9_8Ct/view?usp=sharing)
+  [Video](https://drive.google.com/file/d/1S7K1UGRZfBnBSTZMyvVMk3LvLGx70AXn/view?usp=sharing)
   
 # Frontend
 
