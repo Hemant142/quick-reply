@@ -5,7 +5,7 @@
  [Live](https://quick-reply-pi.vercel.app/)
  
 # Video Link
-  [Video](https://drive.google.com/file/d/1XbPxZpbIx4zU3voo1w3amkk4_zu9_8Ct/view?usp=sharing)
+  [Video](https://drive.google.com/file/d/1S7K1UGRZfBnBSTZMyvVMk3LvLGx70AXn/view?usp=sharing)
   
 # Frontend
 
@@ -44,4 +44,4 @@ Usage The Progress Step component provides a visual representation of a multi-st
 [![Default.png](https://i.postimg.cc/YSmV9GMb/Default.png)](https://postimg.cc/Lq2vQsq1)
 
 
-[![Vertical.png](https://i.postimg.cc/fT8bTqvW/Vertical.png)](https://postimg.cc/cr8WFmjP)
+[![Vertical.png](https://i.postimg.cc/pLbtvg9n/Vertical.png)](https://postimg.cc/zVjQS2FJ)
