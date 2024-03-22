@@ -2,20 +2,18 @@ import React from "react";
 import MultiStepIndicator from "./MultiStepIndicator";
 
 export default {
-  title: "MultiStepIndicator",
-  component: MultiStepIndicator,
-  argTypes: {
-    steps: { control: "array" },
-    type: {
-      description: "string",
-      control: {
-        type: "text", 
+    title: "MultiStepIndicator",
+    component: MultiStepIndicator,
+    argTypes: {
+      steps: { control: "array" },
+      type: {
+        description: "Type of the multi-step indicator",
+        defaultValue: "Horizontal", 
       },
-      defaultValue: "Horizontal",
     },
-  },
-  tags: ["autodocs"],
-};
+    tags: ["autodocs"],
+  };
+  
 
 const Template = (args) => <MultiStepIndicator {...args} />;
 
@@ -101,7 +99,7 @@ Pending.args = {
       status: "pending",
       subtitleText: "Subtitle",
       titleText: "Everything you can do with Monday",
-    },
+    }
   ],
 };
 
@@ -113,6 +111,6 @@ Fulfilled.args = {
       status: "fulfilled",
       subtitleText: "Subtitle",
       titleText: "Everything you can do with Monday",
-    },
+    }
   ],
 };

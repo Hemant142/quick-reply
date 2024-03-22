@@ -1,5 +1,4 @@
 
-
 .multi-step-indicator {
     display: flex;
     justify-content: space-between;
@@ -14,11 +13,11 @@
   }
   
   .step-item.active {
-    color: #007bff; /* Change active step color */
+    color: #007bff;
   }
   
   .step-item.complete {
-    color: #28a745; /* Change completed step color */
+    color: #28a745; 
   }
   
   .step-item:not(:first-child)::before {
@@ -40,14 +39,14 @@
     justify-content: center;
     z-index: 10;
     position: relative;
-    background-color: #007bff; /* Change step circle background color */
+    background-color: #007bff; 
     border-radius: 50%;
     font-weight: 600;
-    color: #fff; /* Change step circle text color */
+    color: #fff;
     margin-right: 5px;
   }
   
   .step-text {
-    color: #6c757d; /* Change step description text color */
+    color: #6c757d; 
   }
   

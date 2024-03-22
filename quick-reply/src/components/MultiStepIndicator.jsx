@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { TiTick } from "react-icons/ti";
-
+import PropTypes from 'prop-types';
 const MultiStepIndicator = ({ steps, type }) => {
   const [currentStep, setCurrentStep] = useState(0);
 
@@ -34,6 +34,15 @@ const MultiStepIndicator = ({ steps, type }) => {
 };
 
 export default MultiStepIndicator;
+
+
+
+MultiStepIndicator.propTypes = {
+    steps:PropTypes.array,
+    type:PropTypes.oneOf(["Horizontal","Vertical"])
+}
+
+
 
 const StepperContainer = styled.div`
   /* border: 2px solid blue; */
