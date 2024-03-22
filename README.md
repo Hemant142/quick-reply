@@ -38,7 +38,7 @@ Usage The Progress Step component provides a visual representation of a multi-st
 
 # ScreenShots  StoryBook
 
-[![HomePage.png](https://i.postimg.cc/C1LBwcPb/HomePage.png)](https://postimg.cc/Lqw6T3Ms)
+[![HomePage.png](https://i.postimg.cc/NFxbnJzS/HomePage.png)](https://postimg.cc/ZvCrBcZx)
 
 
 [![Default.png](https://i.postimg.cc/YSmV9GMb/Default.png)](https://postimg.cc/Lq2vQsq1)
