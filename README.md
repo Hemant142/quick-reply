@@ -43,3 +43,5 @@ Usage The Progress Step component provides a visual representation of a multi-st
 
 [![Default.png](https://i.postimg.cc/YSmV9GMb/Default.png)](https://postimg.cc/Lq2vQsq1)
 
+
+[![Vertical.png](https://i.postimg.cc/fT8bTqvW/Vertical.png)](https://postimg.cc/cr8WFmjP)
