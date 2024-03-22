@@ -10,6 +10,7 @@ export default {
         description: "Type of the multi-step indicator",
         defaultValue: "Horizontal", 
       },
+      
     },
     tags: ["autodocs"],
   };
