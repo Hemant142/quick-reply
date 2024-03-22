@@ -5,7 +5,7 @@
  [Live](https://quick-reply-pi.vercel.app/)
  
 # Video Link
-  [Video](https://drive.google.com/file/d/1S7K1UGRZfBnBSTZMyvVMk3LvLGx70AXn/view?usp=sharing)
+  [Video](https://drive.google.com/file/d/1xEzn9WgjXTTiBY7wRffL2VT8Msc6MElS/view?usp=sharing)
   
 # Frontend
 
@@ -38,7 +38,7 @@ Usage The Progress Step component provides a visual representation of a multi-st
 
 # ScreenShots  StoryBook
 
-[![HomePage.png](https://i.postimg.cc/C1LBwcPb/HomePage.png)](https://postimg.cc/Lqw6T3Ms)
+[![HomePage.png](https://i.postimg.cc/NFxbnJzS/HomePage.png)](https://postimg.cc/ZvCrBcZx)
 
 
 [![Default.png](https://i.postimg.cc/YSmV9GMb/Default.png)](https://postimg.cc/Lq2vQsq1)
