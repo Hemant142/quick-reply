@@ -5,7 +5,7 @@ export default {
   title: "MultiStepIndicator",
   component: MultiStepIndicator,
   argTypes: {
-    steps: { control: "array" },
+    steps: { control: "array", default: "[]" },
     type: {
       description: "Type of the multi-step indicator",
       control: {
@@ -92,4 +92,28 @@ Vertical.args = {
     },
   ],
   type: "Vertical",
+};
+
+export const Pending = Template.bind({});
+Pending.args = {
+  steps: [
+    {
+      key: "Pending",
+      status: "pending",
+      subtitleText: "Subtitle",
+      titleText: "Everything you can do with Monday",
+    }
+  ],
+};
+
+export const Fulfilled = Template.bind({});
+Fulfilled.args = {
+  steps: [
+    {
+      key: "FULFILLED",
+      status: "fulfilled",
+      subtitleText: "Subtitle",
+      titleText: "Everything you can do with Monday",
+    }
+  ],
 };
