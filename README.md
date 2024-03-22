@@ -2,10 +2,10 @@
 
 
 # Deployed Link
- [Live](https://video-clone-pearl.vercel.app/)
+ [Live](https://quick-reply-pi.vercel.app/)
  
 # Video Link
-  [Video](https://drive.google.com/file/d/1yeT9Nc6a-2HTZZQSe_EtXkkSR1DFs0VU/view?usp=sharing)
+  [Video](https://drive.google.com/file/d/1XbPxZpbIx4zU3voo1w3amkk4_zu9_8Ct/view?usp=sharing)
   
 # Frontend
 
